@@ -1,0 +1,47 @@
+.how-it-works-container {
+    margin-top: 40px;
+    background: transparent;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: purple; */
+}
+
+.how-it-works-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-image {
+    z-index: 1; 
+}
+
+.top-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%); 
+    z-index: 2;
+}
+
+.base-image{
+    margin-top: 100px;
+    z-index: 1;
+}
+
+.mid-image{
+
+    position: absolute;
+    margin-bottom: 200px;
+    left: 350px;
+    top: 100%;
+    z-index: 2;
+}
+.up-image{
+    position: absolute;
+    margin-bottom: 200px;
+    left: 360px;
+    top: 752.5px;
+    z-index: 3;
+}
